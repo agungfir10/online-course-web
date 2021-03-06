@@ -1,0 +1,91 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .lesson img {
+    width: 80%;
+  }
+
+  .tools img {
+    padding: 2.5%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson img {
+    width: 60%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  header {
+    height: auto;
+    transition: 0.5s all;
+  }
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    clear: both;
+    margin-right: 0px;
+    width: 100%;
+    display: none;
+  }
+
+  .header-right a {
+    text-align: center;
+    width: 100%;
+  }
+
+  .login {
+    margin-bottom: 20px;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+    visibility: visible;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .tools img {
+    padding: 2%;
+  }
+}
