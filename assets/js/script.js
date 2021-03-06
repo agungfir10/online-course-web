@@ -85,3 +85,24 @@ window.onload = function () {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
+
+let i = 1;
+let tools = document.getElementsByClassName("tools")[0];
+setInterval(function () {
+  tools.childNodes[i].style.filter = "grayscale(0%)";
+  tools.childNodes[i].style.transform = "scale(1.1)";
+  i += 2;
+  if (i == 11) {
+    i = 1;
+  }
+  let x = 1;
+  if (i != 1) {
+    x = i - 2;
+  } else {
+    x = 9;
+  }
+  setTimeout(function () {
+    tools.childNodes[x].style.filter = "grayscale(100%)";
+    tools.childNodes[x].style.transform = "scale(1)";
+  }, 1000);
+}, 1500);

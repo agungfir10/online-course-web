@@ -1,11 +1,15 @@
 # Agung Fir Online Course
 
-Repository Website Design dengan Tema Online Course, desain dibangun dengan HTML, CSS, dan Javascript.
+Repository Website Design with Online Course Themes, designs are built with HTML, CSS, and Javascript.
 
-## List Halaman Home
+I build with from zero and improve my knowledge about Web Design, next I will build an Web App with library.
+
+## List Home Landing Page
 
 - Header
 - Lessons
+- Why Should Join
+- Price Plan
 - Tools
 - Join
 - Footer

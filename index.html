@@ -5,16 +5,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Description" content="Website for learning programming">
-  <title>Progate</title>
+  <title>Try Code</title>
   <link rel="stylesheet" href="assets/css/stylesheet.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&amp;display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="body">
   <header>
     <div class="container">
       <div class="header-left">
@@ -85,17 +86,56 @@
       </div>
     </div>
   </div>
+  <div class="join-wrapper">
+    <div class="container">
+      <lottie-player src="assets/img/programming_lottie.json" background="transparent" speed="1"
+        style="width: 40%; height: auto;" loop autoplay></lottie-player>
+      </lottie-player>
+      <div class="content-join-wrapper">
+        <h1>Kenapa belajar pemrograman?</h1>
+        <p>Belajar pemrograman dapat membantu anda berpikir, serta dapat digunakan untuk bekerja karena era saat ini
+          teknologi semakin terus maju dan bertambah sumber daya manusia yang berkompeten di IT.</p>
+      </div>
+    </div>
+  </div>
   <div class="tools-wrapper">
     <div class="container">
       <div class="heading">
         <h2><strong>Tools Yang Digunakan</strong></h2>
       </div>
       <div class="tools">
-        <img src="assets/img/vs_code.svg" alt="Visual Studio Code" class="item-1">
-        <img src="assets/img/chrome.svg" alt="Chrome" class="item-2">
-        <img src="assets/img/android_studio.svg" alt="Android Studio" class="item-3">
-        <img src="assets/img/adobe_xd.svg" alt="Adobe XD" class="item-5">
-        <img src="assets/img/figma.svg" alt="Figma" class="item-4">
+        <img src="assets/img/vs_code.svg" alt="Visual Studio Code">
+        <img src="assets/img/chrome.svg" alt="Chrome">
+        <img src="assets/img/android_studio.svg" alt="Android Studio">
+        <img src="assets/img/adobe_xd.svg" alt="Adobe XD">
+        <img src="assets/img/figma.svg" alt="Figma">
+      </div>
+    </div>
+  </div>
+  <div class="feedback-wrapper">
+    <div class="container">
+
+    </div>
+  </div>
+  <div class="price-wrapper">
+    <div class="container">
+      <div class="plans">
+        <div class="plan">
+          <h2>$300</h2>
+          <p>Be in the know. Fetch an endless stream of input with our <span class="bold">monthly</span> plan.</p>
+          <a href="" class="start-learning">START LEARNING</a>
+        </div>
+        <div class="plan">
+          <h2>$300</h2>
+          <p>Set your ocular implants to binge-mode. Go all in with a discounted <span class="bold">yearly</span> plan.
+          </p>
+          <a href="" class="start-learning active">START LEARNING</a>
+        </div>
+        <div class="plan">
+          <h2>$300</h2>
+          <p>Permanently uplink to our mainframe. Pay once, and access Laracasts <span class="bold">forever.</span></p>
+          <a href="" class="start-learning">START LEARNING</a>
+        </div>
       </div>
     </div>
   </div>
@@ -115,6 +155,7 @@
     </div>
   </footer>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/lottie-player.js"></script>
 </body>
 
 </html>

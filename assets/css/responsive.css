@@ -5,6 +5,10 @@
     margin-bottom: 50px;
   }
 
+  .lesson p {
+    font-size: 22px;
+  }
+
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -32,12 +36,21 @@
     width: 60%;
   }
 
+  .lesson p {
+    top: 35%;
+    font-size: 24px;
+  }
+
   footer {
     text-align: center;
   }
 
   .btn {
     width: 100%;
+  }
+
+  .btn:hover {
+    transform: scale(1.02);
   }
 
   .facebook {
@@ -87,5 +100,23 @@
 
   .tools img {
     padding: 2%;
+  }
+
+  .tools-wrapper {
+    padding: 0 0 80px 0;
+  }
+
+  .join-wrapper lottie-player {
+    display: none;
+  }
+
+  .content-join-wrapper {
+    float: none;
+    text-align: center;
+  }
+  .content-join-wrapper h1 {
+    font-size: 24px;
+    float: none;
+    text-align: center;
   }
 }
