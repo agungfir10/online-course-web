@@ -9,12 +9,17 @@
     font-size: 22px;
   }
 
+  .lesson-icon p {
+    font-size: 34px;
+  }
+
   .top-wrapper h1 {
     font-size: 32px;
   }
 
   .heading h2 {
     font-size: 20px;
+    font-weight: normal;
   }
 
   .lesson img {
@@ -34,11 +39,15 @@
 
   .lesson img {
     width: 60%;
+    margin-bottom: 20px;
   }
 
   .lesson p {
-    top: 35%;
     font-size: 24px;
+  }
+
+  .lesson-icon p {
+    font-size: 32px;
   }
 
   footer {
@@ -71,6 +80,10 @@
     margin-right: 0px;
     width: 100%;
     display: none;
+  }
+
+  header h1 {
+    margin-bottom: 10px;
   }
 
   .header-right a {
@@ -114,9 +127,18 @@
     float: none;
     text-align: center;
   }
+
+  .content-join-wrapper p {
+    padding: 0 20px;
+  }
+
   .content-join-wrapper h1 {
     font-size: 24px;
     float: none;
     text-align: center;
+  }
+
+  .price-wrapper p {
+    width: 100%;
   }
 }
