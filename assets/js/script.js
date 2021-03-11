@@ -1,10 +1,12 @@
-let header = document.getElementsByTagName("header")[0];
+let header = document.getElementsByTagName("header")[0].style;
 
 document.addEventListener("scroll", () => {
   if (window.scrollY > 100) {
-    header.style.backgroundColor = "#223134DD";
+    header.backgroundColor = "#223134DD";
+    header.paddingTop = "0px";
   } else {
-    header.style.backgroundColor = "#22313400";
+    header.backgroundColor = "#22313400";
+    header.paddingTop = "30px";
   }
 });
 
