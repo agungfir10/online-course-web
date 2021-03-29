@@ -378,7 +378,7 @@ lottie-player {
 }
 
 .step .circle {
-  background-color: #7096dd;
+  background-color: #5986fe;
   border: 3px solid gray;
   border-radius: 100%;
   width: 30px; /* +6 for border */
@@ -396,7 +396,7 @@ lottie-player {
 
 .step.active .circle {
   visibility: visible;
-  border-color: #291ceb;
+  border-color: #5986fe;
 }
 
 .step:last-child .line {
